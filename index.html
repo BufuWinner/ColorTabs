@@ -1,0 +1,51 @@
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Tabs</title>
+</head>
+
+<input type="radio" name="name" checked="checked" id="firstO" />
+<div id="first"></div>
+<input type="radio" name="name" id="secondO" />
+<div id="second"></div>
+<input type="radio" name="name" id="thirdO" />
+<div id="third"></div>
+<input type="radio" name="name" id="fourthO" />
+<div id="fourth"></div>
+<script type="text/javascript">
+
+function livelyPropertyListener(name, val)
+{
+	switch(name) {
+    case "tabOne":
+      tmp = hexToRgb(val);
+      document.getElementById("first").style.backgroundColor = val;
+      document.getElementById("firstO").style.outlineColor = val;
+      break;   
+    case "tabTwo":
+      tmp = hexToRgb(val);
+      document.getElementById("second").style.backgroundColor = val;
+      document.getElementById("secondO").style.outlineColor = val;
+      break;
+    case "tabThree":
+      tmp = hexToRgb(val);
+      document.getElementById("third").style.backgroundColor = val;
+      document.getElementById("thirdO").style.outlineColor = val;
+      break;
+    case "tabFour":
+      tmp = hexToRgb(val);
+      document.getElementById("fourth").style.backgroundColor = val;
+      document.getElementById("fourthO").style.outlineColor = val;
+      break;
+  }
+}
+
+function hexToRgb(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+}
+
+</script>

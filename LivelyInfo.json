@@ -1,0 +1,14 @@
+{
+  "AppVersion": "1.0",
+  "Title": "Color Tabs",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Desc": "Switchable Colored Tabs",
+  "Author": "BufuWinner",
+  "License": "",
+  "Contact": "",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}

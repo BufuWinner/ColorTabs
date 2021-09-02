@@ -1,0 +1,22 @@
+{
+  "tabOne": {
+    "text": "First Tab",
+    "type": "color",
+    "value": "#ffe814"
+  },
+  "tabTwo": {
+    "text": "Second Tab",
+    "type": "color",
+    "value": "#146eff"
+  },
+  "tabThree": {
+    "text": "Third Tab",
+    "type": "color",
+    "value": "#ff2e2e"
+  },
+  "tabFour": {
+    "text": "Third Tab",
+    "type": "color",
+    "value": "#12ff1a"
+  }
+}
